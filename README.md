@@ -87,6 +87,25 @@ The Polynomial Ridge Regression model provides the most balanced performance bet
 
 ---
 
+## Key Results
+
+- Linear regression (smoker only): R² = 0.62  
+- Linear regression (all variables): R² = 0.75  
+- Polynomial regression: R² = 0.84  
+- Ridge + Polynomial (test set): R² = 0.78  
+
+---
+
+## Business Interpretation
+
+Smoking status is the strongest predictor of insurance charges.  
+Incorporating additional demographic and behavioral variables improves model performance significantly.  
+
+Non-linear interactions between age, BMI, and smoking further enhance predictive power.  
+Regularization (Ridge) helps control overfitting and improves generalization on unseen data.
+
+---
+
 ## Tools and Libraries
 
 - Python  
